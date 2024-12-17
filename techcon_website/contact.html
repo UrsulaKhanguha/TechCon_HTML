@@ -1,51 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>TechCon Conference 2024</title>
-    </head>
-    <body>
-        <header>
-           <h1>Contact Us</h1>
-        </header>
-        <nav>
-            <ul>
-                <li><a href="#home.html">Home</a></li>
-                <li><a href="#about.html">About</a></li>
-                <li><a href="#schedule.html">Schedule</a></li>
-                <li><a href="#register.html">Register</a></li>
-            </ul>
-        </nav>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - TechCon 2024</title>
+</head>
+<body>
 
-        <main>
-            <h1>Detail Contact Information</h1><br>
-            <a href="mailto:email@example.com">Email us at info@techcon.com</a>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
 
-            <p>Social Media Links:</p> 
-            <a href="https://twitter.com/SocalTechcon" target="_blank">Twitter - @SocalTechcon</a><br>
-            <a href="https://www.instagram.com/techconsocal/" target="_blank">Instagram - @techconsocal</a><br><br>
+    <nav>
+        <ul>
+            <li><a href="#home.html">Home</a></li>
+            <li><a href="#about.html">About</a></li>
+            <li><a href="#schedule.html">Schedule</a></li>
+            <li><a href="#register.html">Register</a></li>
+        </ul>
+    </nav>
 
-            <p>Location:</p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46366.939129501385!2d-97.76030793645258!3d30.41265249344486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644cc8252d7f82f%3A0x4595dc1dea42c274!2sRenaissance%20Austin%20Hotel!5e0!3m2!1sen!2ske!4v1734443275006!5m2!1sen!2ske" 
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <br>
+    <main>
+        <h2>Contact Information</h2>
 
-            <h4>Contact Us</h4><br>
-            <form action="/submit-form" method="post">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" placeholder="Enter your name"><br>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" placeholder="example@gmail.com"><br>
-                <label for="comments">Comments:</label><br>
-                <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Write your comments here..."></textarea><br>
-                <button type="submit">Submit</button>
-            </form>
-        </main>
+        <p><strong>Email Address:</strong> <a href="mailto:email@example.com">info@techcon.com</a></p>
 
-        <footer>
-            <p>&copy; 2024 TechCon Conference. All rights reserved.</p>
-            <p>Visit us at <a href="https://www.techcon.com" target="_blank">www.techcon.com</a></p>
-        </footer>
-    </body>
+        <p><strong>Social Media Links:</strong></p>
+        <ul>
+            <li><a href="https://twitter.com/SocalTechcon" target="_blank">Twitter - @SocalTechcon</a></li>
+            <li><a href="https://www.instagram.com/techconsocal/" target="_blank">Instagram - @techconsocal</a></li>
+        </ul>
+
+        <h3>Location</h3>
+        <p>Find us at the Renaissance Austin Hotel</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46366.939129501385!2d-97.76030793645258!3d30.41265249344486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644cc8252d7f82f%3A0x4595dc1dea42c274!2sRenaissance%20Austin%20Hotel!5e0!3m2!1sen!2ske!4v1734443275006!5m2!1sen!2ske" 
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <h3>Contact Us Form</h3>
+        <form action="/submit-form" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" placeholder="Write your message here..." required></textarea><br><br>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 TechCon Conference. All rights reserved.</p>
+        <p>Visit us at <a href="https://www.techcon.com" target="_blank">www.techcon.com</a></p>
+    </footer>
+
+</body>
 </html>
 
